@@ -1,1 +1,29 @@
-get http://localhost:4000/ HTTP/1.1
+GET http://localhost:4000/ HTTP/1.1
+##########################
+POST /linguagens  HTTP/1.1
+Host: localhost:4000
+content-type: application/json
+
+// Inserir dados no DB, não aceita nome e codigo igual
+{
+  "nome" : "C", 
+  "codigo" : "tres"
+}
+########################
+DELETE /linguagens/ HTTP/1.1
+Host: localhost:4000
+content-type: application/json
+
+{
+  "id" : "6040eb90860170076881424e"
+}
+################
+POST /paradigmas  HTTP/1.1
+Host: localhost:4000
+content-type: application/json
+
+// Inserir dados no DB, não aceita nome e codigo igual
+{
+  "nomeParad" : "Imperativa", 
+  "caracteristica" : "acoes, enunciados, comandos"
+}
