@@ -5,9 +5,9 @@ Desenvolvimento do projeto de classificador de Paradigmas de programação.
 
 2) Mateus de Souza P. F. de Mendonça e Kaio Ribeiro
 
-3) WEB, Usando banco de dados mongodb
+3) WEB, Usando banco de dados mongodb atlas (online)
 
-4)O projeto será desenvolvido utilizando a tecnologia APIRest, utilizando a linguagem de programação JavaScript e HTML.
+4)O projeto será desenvolvido utilizando a tecnologia APIRest, utilizando a linguagem de programação JavaScript com recursos do node.js e react(elementos do primeReact).
 
 5)Metodologia cascata
 
