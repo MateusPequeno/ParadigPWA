@@ -6,11 +6,16 @@ const LingSchema = new mongoose.Schema({
             unique: true,
             required: true
       },
-      codigo:{ 
-            type: String,
-            unique: true,
-            required: true
-      }
+      caracteristica : [{
+            type : String,
+            unique: false,
+            required: false
+      }],
+      paradigmas:[{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Paradigmas',
+            required: false
+      }],
       });
-
-module.exports = mongoose.model('Linguagens',LingSchema); 
+const Linguagens = mongoose.model('Linguagens',LingSchema);
+module.exports = Linguagens;

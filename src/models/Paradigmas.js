@@ -6,10 +6,11 @@ const ParadSchema = new mongoose.Schema({
             unique: true,
             required: true
       },
-      caracteristica:{ 
+      caracteristica:[{ 
             type: String,
             unique: false,
-            required: true
-      }
+            required: false
+      }]
       });
-module.exports = mongoose.model('Paradigmas',ParadSchema); 
+const Paradigmas = mongoose.model('Paradigmas',ParadSchema);
+module.exports = Paradigmas;
