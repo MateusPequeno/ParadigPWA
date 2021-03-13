@@ -2,7 +2,7 @@
 Desenvolvimento do projeto de classificador de Paradigmas de programação.
 
 1) Classificador de paradigmas.
-2) Mateus de Souza P. F. de Mendonça e Kaio Ribeiro
+2) Mateus de Souza P. F. de Mendonça , Kaio Ribeiro e Gabriel Brito Melandes
 3) WEB, com banco de dados mongodb atlas que é online.
 
 
