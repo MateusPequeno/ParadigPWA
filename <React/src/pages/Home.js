@@ -6,13 +6,16 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import { Link } from "react-router-dom";
 import InserirForm from "./InserirForm";
+import imgIFB from "../imagens/imgifb.png"
 
-//consumir app com AXIOS
 class Home extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <div>
+            <img src={imgIFB}/>
+          </div>
           Classificador de linguagens
           <br></br>
           <br></br>
