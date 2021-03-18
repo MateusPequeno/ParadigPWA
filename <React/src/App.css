@@ -22,7 +22,10 @@
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
 }
-
+.btn-enviar button {
+  background-color: #0026ff; /* Green background */
+  color: white; /* White text */
+}
 .btn-group button:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
